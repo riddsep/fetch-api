@@ -18,9 +18,9 @@ function App() {
   }, []);
   return (
     <>
-      <h1>Data fetch</h1>
+      <h1>Belajar Fetch API</h1>
       {loading ? (
-        <p>Loading...</p>
+        <p>Loading ...</p>
       ) : (
         <ul>
           {news.map((item) => (
